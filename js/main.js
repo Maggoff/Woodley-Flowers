@@ -7,5 +7,18 @@ $(document).ready(function(){
     nextArrow: '<button type="button" class="slick-next"></button>',
     focusOnSelect: true,
     swipe: false,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          dots: true,
+          centerPadding: '0px',
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        }
+      }
+    ]
   });
 });

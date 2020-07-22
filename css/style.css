@@ -385,3 +385,101 @@ img{
 .slick-slider .portfolio__item{
   cursor: pointer;
 }
+/* END Portfolio*/
+
+/* Reviews */
+.reviews{
+  margin-top: 80px;
+}
+
+.reviews__title{
+  margin-bottom: 40px;
+}
+
+.reviews__item{
+  background-color: #ffffff;
+  border: 1px solid #cd3a7d;
+  padding: 20px 40px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.reviews__item__left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.reviews__item__left__img{
+  margin-bottom: 8px;
+}
+
+.reviews__item__right{
+  margin-left: 20px;
+}
+
+.reviews__item__right__title{
+  display: flex;
+}
+
+.reviews__item__right__title__name{
+  margin-right: 8px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #595959;
+  position: relative;
+}
+
+.reviews__item__right__title__name::after{
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 18px;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #595959;
+}
+
+.reviews__item__right__title__date{
+  margin-left: 8px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #595959;
+}
+
+.reviews__item__right__text{
+  margin-top: 8px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #595959;
+}
+
+.reviews__btn{
+  display: block;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 24px;
+  background-color: #cd3a7d;
+  margin-bottom: 80px;
+}
+
+.reviews__btn:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+/* END Reviews */
