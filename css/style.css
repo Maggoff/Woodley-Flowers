@@ -181,3 +181,62 @@ img{
   text-decoration: none;
 }
 /* END Categories */
+
+/* Benefits */
+.benefits{
+  margin-top: 80px;
+}
+
+.benefits__descr{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-family: "Alegreya Sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #595959;
+}
+
+.benefits__item{
+  background-color: #ffffff;
+  border: 1px solid rgba(205, 58, 125, 0.3);
+  padding: 60px 20px 50px;
+  height: 100%;
+  position: relative;
+}
+
+.benefits__item::after{
+  position: absolute;
+  content: "";
+  top: -25px;
+  left: 50%;
+  transform: translate(-50%);
+  background-image: url(../img/check.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.benefits__item__title{
+  margin: 0 20px 20px;
+  font-family: "Alegreya Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #595959;
+}
+
+.benefits__item__descr{
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #595959;
+}
+/* END Benefits */
