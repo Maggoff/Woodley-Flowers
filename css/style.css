@@ -240,3 +240,47 @@ img{
   color: #595959;
 }
 /* END Benefits */
+
+/* Stages */
+.stages{
+  margin-top: 80px;
+}
+
+.stages__item{
+  margin-top: 40px;
+  position: relative;
+  height: 100%;
+}
+
+.stages__item::after{
+  position: absolute;
+  content: "";
+  right: -35%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(../img/stages-p.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 4px;
+}
+
+.stages__item.stages5::after{
+  display: none;
+}
+
+.stages__item__img{
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.stages__item__descr{
+  font-family: "Alegreya Sans";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #595959;
+}
+/* END Stages */
