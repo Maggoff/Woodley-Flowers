@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: local('Alegreya Sans Light'), local('AlegreyaSans-Light'), url('../fonts/Alegreyasanslight.woff2') format('woff2'), url('../fonts/Alegreyasanslight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: local('Alegreya Sans'), local('Alegreya Sans'), url('../fonts/Alegreyasans.woff2') format('woff2'), url('../fonts/Alegreyasans.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: local('Alegreya Sans Medium'), local('AlegreyaSans-Medium'), url('../fonts/Alegreyasansmedium.woff2') format('woff2'), url('../fonts/Alegreyasansmedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Alegreya Sans';
+  src: local('Alegreya Sans Bold'), local('AlegreyaSans-Bold'), url('../fonts/Alegreyasansbold.woff2') format('woff2'), url('../fonts/Alegreyasansbold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url('../fonts/Robotoslablight.woff2') format('woff2'), url('../fonts/Robotoslablight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url('../fonts/Robotoslabregular.woff2') format('woff2'), url('../fonts/Robotoslabregular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
