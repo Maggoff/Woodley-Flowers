@@ -3,13 +3,15 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '0px',
     slidesToShow: 5,
-    prevArrow: '<button type="button" class="slick-prev"></button>',
-    nextArrow: '<button type="button" class="slick-next"></button>',
+    prevArrow: '<button type="button" class="slick-prev" onclick="myfunction()"></button>',
+    nextArrow: '<button type="button" class="slick-next" onclick="myfunction()"></button>',
     focusOnSelect: true,
+    variableWidth: true,
+    adaptiveHeight: true,
     swipe: false,
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 1030,
         settings: {
           arrows: false,
           centerMode: true,
