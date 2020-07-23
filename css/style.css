@@ -349,6 +349,7 @@ img{
 .slick-track{
   display: flex;
   align-items: center;
+  transition: 0.3s;
 }
 
 .slick-current.portfolio__item{
