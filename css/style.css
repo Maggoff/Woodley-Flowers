@@ -200,6 +200,7 @@ img{
   text-decoration: none;
   padding: 8px 24px;
   background-color: #cd3a7d;
+  margin-bottom: 2px;
 }
 
 .categories__btn:hover{
@@ -318,6 +319,7 @@ img{
 
 .portfolio__slider{
   margin-top: 40px;
+  margin-bottom: 2px;
 }
 
 .portfolio__item{
