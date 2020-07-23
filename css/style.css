@@ -148,7 +148,7 @@ img{
 
 /* Categories */
 .categories{
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .categories__item{
@@ -210,7 +210,7 @@ img{
 
 /* Benefits */
 .benefits{
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .benefits__descr{
@@ -269,7 +269,7 @@ img{
 
 /* Stages */
 .stages{
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .stages__item{
@@ -313,7 +313,7 @@ img{
 
 /* Portfolio */
 .portfolio{
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .portfolio__slider{
@@ -406,7 +406,7 @@ img{
 
 /* Reviews */
 .reviews{
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .reviews__title{
@@ -874,7 +874,7 @@ img{
   }
 
   .categories{
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .categories__item{
@@ -902,7 +902,7 @@ img{
   }
 
   .benefits{
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .benefits__descr{
@@ -939,7 +939,7 @@ img{
   }
 
   .stages{
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .stages__item{
@@ -973,7 +973,7 @@ img{
   }
 
   .portfolio{
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .portfolio__slider{
@@ -986,7 +986,7 @@ img{
   }
 
   .reviews{
-    margin-top: 30px;
+    padding-top: 30px;
   }
 
   .reviews__item{
