@@ -634,7 +634,6 @@ img{
   }
 
   .slick-dots{
-    margin-top: 10px;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -646,9 +645,10 @@ img{
     border-radius: 90px;
     border: none;
     font-size: 0px;
-    width: 12px;
-    height: 12px;
+    width: 5px;
+    height: 5px;
     margin: 0 5px;
+    padding: 0;
   }
 
   .slick-dots button:active,
@@ -785,8 +785,8 @@ img{
   }
   
   .main__inner{
-    margin-top: 10vh;
-    height: 60vh;
+    margin-top: 20vh;
+    height: 50vh;
   }
   
   .main__title{
@@ -863,23 +863,6 @@ img{
     font-size: 10px;
     line-height: 13px;
   }
-
-  .main{
-    height: 50vh;
-  }
-
-  .main__background{
-    height: 50vh;
-  }
-  
-  .main__background__screen{
-    height: 50vh;
-  }
-  
-  .main__inner{
-    margin-top: 20vh;
-    height: 30vh;
-  }
   
   .main__title{
     font-size: 11px;
@@ -895,8 +878,15 @@ img{
   }
 
   .categories__item{
-    margin: 8px 0;
+    margin: 4px 0;
     padding: 8px;
+  }
+  .cat1{
+    padding-right: 4px;
+  }
+
+  .cat2{
+    padding-left: 4px;
   }
 
   .categories__item__title{
@@ -908,6 +898,7 @@ img{
   .categories__btn{
     font-size: 10px;
     line-height: 12px;
+    margin-top: 4px;
   }
 
   .benefits{
@@ -922,7 +913,7 @@ img{
   }
 
   .benefits__container{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .benefits__item{
@@ -953,14 +944,23 @@ img{
 
   .stages__item{
     margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   .stages__item::after{
     right: -35%;
   }
 
+  .stages4{
+    margin-bottom: 0;
+  }
+
   .stages4::after{
     right: -65%;
+  }
+
+  .stages5{
+    margin-bottom: 0;
   }
 
   .stages__item__img{
