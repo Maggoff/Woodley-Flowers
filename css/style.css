@@ -948,7 +948,8 @@ img{
   }
 
   .stages__item::after{
-    right: -35%;
+    right: -20%;
+    transform: scale(0.6);
   }
 
   .stages4{
@@ -956,7 +957,7 @@ img{
   }
 
   .stages4::after{
-    right: -65%;
+    right: -55%;
   }
 
   .stages5{
@@ -1046,6 +1047,16 @@ img{
     line-height: 12px;
   }
 
+}
+
+@media (max-width: 400px){
+  .stages__item::after{
+    right: -30%;
+  }
+
+  .stages4::after{
+    right: -70%;
+  }
 }
 
 /* END Adaption */
