@@ -1,0 +1,407 @@
+body{
+  background-color: #ffffff;
+}
+
+img{
+  display: inline-block;
+  user-select: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #595959; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cd3a7d; 
+}
+/* END Scrollbar */
+
+/* Header */
+.header{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px rgba(89, 89, 89, 0.15);
+}
+
+.header__logo__img{
+  margin: 8px 0;
+  height: 42px;
+}
+
+.header__menu{
+  text-align: right;
+  margin: 20px 0;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.header__menu__item{
+  color: #595959;
+  margin-left: 40px;
+  transform: 0.4s;
+}
+
+.header__menu__item:first-child{
+  margin: 0;
+}
+
+.header__menu__item:hover{
+  color: #cd3a7d;
+  text-decoration: none;
+}
+/* END Header */
+
+/* Shop */
+.shop{
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+.shop__btn{
+  display: block;
+  padding: 8px 24px;
+  background-color: #ffffff;
+  border: 1px solid #cd3a7d;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #595959;
+}
+
+.shop__btn::after{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url(../img/up.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 100%;
+  padding-right: 20px;
+  padding-left: 34px;
+  border-left: 1px solid #cd3a7d;
+}
+
+.shop__btn:hover{
+  color: #cd3a7d;
+  text-decoration: none;
+}
+
+.dropdown-menu{
+  width: 100%;
+  padding: 0;
+  border-radius: 0px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.checkbox__item{
+  padding: 8px 20px 8px 25px;
+  margin: 0;
+}
+
+.checkbox__item:hover{
+  background-color: #cd3a7c2a;
+}
+
+.checkbox__item__btn{
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.checkbox__item__label{
+  margin: 0;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #595959;
+  position: relative;
+}
+
+.checkbox__item__btn+.checkbox__item__label{
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  position: relative;
+}
+
+.checkbox__item__btn+.checkbox__item__label::after{
+  position: absolute;
+  content: "";
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #cd3a7d;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+.checkbox__item__btn:checked+.checkbox__item__label::after{
+  background-image: url(../img/checked.svg);
+}
+/* END Shop */
+
+/* Footer */
+.footer{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px rgba(89, 89, 89, 0.15);
+}
+
+.footer__menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #cd3a7d;
+}
+
+.footer__menu__title{
+  display: none;
+}
+
+.footer__menu__item{
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #595959;
+}
+
+.footer__menu__item:hover{
+  color: #cd3a7d;
+  text-decoration: none;
+}
+
+.footer__contacts{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #595959;
+}
+
+.footer__contacts__title{
+  display: none;
+}
+
+.footer__address{
+  margin-top: 40px;
+  text-align: left;
+}
+
+.footer__phone{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer__schedule{
+  margin-top: 40px;
+  text-align: right;
+}
+
+.footer__icons{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #cd3a7d;
+}
+
+.footer__icon{
+  margin-right: 15px;
+}
+
+.footer__icon:last-child{
+  margin: 0;
+}
+
+.footer__studio{
+  margin: 12px 0;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  color: #595959;
+}
+
+.footer__autor__inner{
+  display: block;
+  text-align: right;
+}
+
+.footer__autor{
+  margin: 12px 0;
+  display: inline-block;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+  color: #595959;
+}
+
+.footer__autor:hover{
+  color: #595959;
+  text-decoration: none;
+}
+/* END Footer */
+
+/* Adaption */
+
+@media (max-width: 991px){
+
+  .header__menu{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__menu__item{
+    margin: 0;
+  }
+
+  .footer__menu{
+    flex-direction: column;
+    border: none;
+    position: relative;
+  }
+
+  .footer__menu::after{
+    position: absolute;
+    content: "";
+    right: -15.5px;
+    width: 1px;
+    height: 80%;
+    background-color: #cd3a7d;
+    opacity: 0.3;
+  }
+
+  .footer__menu__item{
+    margin-bottom: 8px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    text-transform: none;
+  }
+
+  .footer__menu__title{
+    display: block;
+    font-weight: 700;
+  }
+
+  .footer__contacts{
+    padding: 20px 0 8px;
+    flex-direction: column;
+    text-align: right;
+    font-size: 16px;
+  }
+
+  .footer__contacts__title{
+    font-weight: 700;
+    display: block;
+  }
+
+  .footer__address{
+    margin-top: 8px;
+    text-align: right;
+  }
+
+  .footer__phone{
+    margin-top: 8px;
+    text-align: right;
+  }
+
+  .footer__schedule{
+    margin-top: 8px;
+    text-align: right;
+  }
+
+  .footer__icons{
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    border: none;
+  }
+
+  .footer__down{
+    border-top: 1px solid #cd3a7d;
+  }
+  
+}
+
+@media (max-width: 767px){
+  
+  .header__menu__item{
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+}
+
+@media (max-width: 575px){
+
+  .header__menu{
+    margin: 12px 0;
+  }
+  
+  .header__menu__item{
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .footer__menu__item{
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .footer__contacts{
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .footer__icon__img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer__studio{
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .footer__autor__inner{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .footer__autor{
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+}
+
+/* END Adaption */
