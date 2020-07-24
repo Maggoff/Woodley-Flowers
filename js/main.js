@@ -35,6 +35,6 @@ $(document).ready(function(){
   });
 });
 
-$(document).on('click', '.dropdown-menu', function (e) {
+$(document).on('click', '.checkbox__item .checkbox__item__label', function (e) {
   e.stopPropagation();
 });
