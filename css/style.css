@@ -434,11 +434,32 @@ img{
 
 .reviews__item__left__img{
   margin-bottom: 8px;
-  width: 100%;
+  width: 100px;
+  height: 100px;
+  border-radius: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviews__item__left__img1{
+  background-image: url(../img/reviews-img1.png);
+}
+
+.reviews__item__left__img2{
+  background-image: url(../img/reviews-img2.png);
+}
+
+.reviews__item__left__img3{
+  background-image: url(../img/reviews-img3.png);
 }
 
 .reviews__item__left__rating{
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #cd3a7d;
+  font-size: 20px;
 }
 
 .reviews__item__right{
@@ -696,6 +717,11 @@ img{
     display: none;
   }
 
+  .reviews__item__left__img{
+    width: 80px;
+    height: 80px;
+  }
+
   .footer__menu{
     flex-direction: column;
     border: none;
@@ -831,6 +857,11 @@ img{
 
   .portfolio__item{
     margin: 0 5px;
+  }
+
+  .reviews__item__left__img{
+    width: 80px;
+    height: 80px;
   }
 
   .reviews__item__right__title__name{
@@ -996,6 +1027,11 @@ img{
   .reviews__item{
     margin-bottom: 10px;
     padding: 16px 26px;
+  }
+
+  .reviews__item__left__img{
+    width: 60px;
+    height: 60px;
   }
 
   .reviews__item__right__title__name{
