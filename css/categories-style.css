@@ -111,7 +111,7 @@ img{
 }
 
 .checkbox__item{
-  padding: 8px 20px 8px 25px;
+  padding: 0;
   margin: 0;
 }
 
@@ -135,6 +135,7 @@ img{
   line-height: 19px;
   letter-spacing: 0.05em;
   color: #595959;
+  padding: 8px 20px 8px 25px;
   position: relative;
 }
 
@@ -148,7 +149,7 @@ img{
 .checkbox__item__btn+.checkbox__item__label::after{
   position: absolute;
   content: "";
-  right: 0;
+  right: 20px;
   width: 15px;
   height: 15px;
   border: 1px solid #cd3a7d;
