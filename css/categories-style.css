@@ -85,6 +85,7 @@ img{
   line-height: 22px;
   letter-spacing: 0.05em;
   color: #595959;
+  transition: 0.4s;
 }
 
 .shop__btn::after{
@@ -119,6 +120,7 @@ img{
 .checkbox__item{
   padding: 0;
   margin: 0;
+  transition: 0.2s;
 }
 
 .checkbox__item:hover{
@@ -173,6 +175,11 @@ img{
   border: 1px solid #cd3a7d;
   font-size: 18px;
   line-height: 22px;
+  transition: 0.4s;
+}
+
+.promo:hover{
+  color: #cd3a7d;
 }
 
 .shop__item{
