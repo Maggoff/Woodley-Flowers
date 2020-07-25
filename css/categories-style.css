@@ -50,7 +50,7 @@ img{
 .header__menu__item{
   color: #595959;
   margin-left: 40px;
-  transform: 0.4s;
+  transition: 0.4s;
 }
 
 .header__menu__item:first-child{
