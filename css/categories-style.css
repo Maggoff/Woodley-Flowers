@@ -94,7 +94,7 @@ img{
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/up.svg);
+  background-image: url(../img/down.svg);
   background-position: center;
   background-repeat: no-repeat;
   width: 16px;
@@ -102,6 +102,10 @@ img{
   padding-right: 20px;
   padding-left: 34px;
   border-left: 1px solid #cd3a7d;
+}
+
+.show .shop__btn::after{
+  background-image: url(../img/up.svg);
 }
 
 .shop__btn:hover{
@@ -181,6 +185,91 @@ img{
 
 .promo:hover{
   color: #cd3a7d;
+}
+
+.shop__range .checkbox__item .checkbox__item__label{
+  background-color: #ffffff;
+  cursor: default;
+  padding: 15px 20px;
+}
+
+.range{
+  height: 2px;
+  border: none;
+  background-color: #595959;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.noUi-connects{
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.noUi-connect{
+  background-color: #cd3a7d;
+}
+
+.noUi-horizontal .noUi-handle{
+  width: 10px;
+  height: 10px;
+  right: -10px;
+  top: -4px;
+  background-color: #cd3a7d;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.noUi-horizontal .noUi-handle.noUi-handle-lower{
+  right: 0;
+}
+
+.noUi-handle::before,
+.noUi-handle::after{
+  display: none;
+}
+
+.range__inner{
+  display: flex;
+  justify-content: center;
+}
+
+.range__inner::after{
+  position: absolute;
+  content: "";
+  top: 64%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 1px;
+  background-color: #595959;
+}
+
+.range__min{
+  margin-right: 25px;
+}
+
+.range__min,
+.range__max{
+  border: 1px solid #cd3a7d;
+  width: 55px;
+  outline: none;
+  border-radius: 0px;
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: #595959;
+  margin-top: 17px;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
 }
 
 .shop__item{
