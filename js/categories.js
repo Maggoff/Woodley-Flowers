@@ -1,3 +1,19 @@
+$(document).ready(function() {
+  $("body").css("opacity", "0");
+
+  $("body").fadeIn(2000);
+
+$("a.transition").click(function(event){
+  event.preventDefault();
+  linkLocation = this.href;
+  $("body").fadeOut(1000, redirectPage);
+});
+
+function redirectPage() {
+  window.location = linkLocation;
+}
+});
+
 $(document).ready(function(){
   $("#menu").on("click","a", function (event) {
       event.preventDefault();
@@ -9,22 +25,6 @@ $(document).ready(function(){
 
 $(document).on('click', '.checkbox__item .checkbox__item__label', function (e) {
   e.stopPropagation();
-});
-
-$(document).ready(function() {
-  $("body").css("display", "none");
-
-  $("body").fadeIn(300);
-
-$("a.transition").click(function(event){
-  event.preventDefault();
-  linkLocation = this.href;
-  $("body").fadeOut(300, redirectPage);
-});
-
-function redirectPage() {
-  window.location = linkLocation;
-}
 });
 
 let slider = document.getElementById('range');
