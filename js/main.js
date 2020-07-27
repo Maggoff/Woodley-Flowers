@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  $("body").css("opacity", "0");
-
   $("body").fadeIn(2000);
 
 $("a.transition").click(function(event){
