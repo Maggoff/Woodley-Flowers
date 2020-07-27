@@ -35,6 +35,22 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function() {
+  $("body").css("display", "none");
+
+  $("body").fadeIn(300);
+
+$("a.transition").click(function(event){
+  event.preventDefault();
+  linkLocation = this.href;
+  $("body").fadeOut(300, redirectPage);
+});
+
+function redirectPage() {
+  window.location = linkLocation;
+}
+});
+
 let i = 2;
 
 function myfunction(){
