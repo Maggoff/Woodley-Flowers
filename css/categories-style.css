@@ -440,11 +440,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .footer__icon{
-  margin-right: 15px;
-}
-
-.footer__icon:last-child{
-  margin: 0;
+  margin-left: 15px;
 }
 
 .footer__studio{
