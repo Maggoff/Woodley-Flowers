@@ -417,6 +417,7 @@ img{
 /* Reviews */
 .reviews{
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .reviews__title{
@@ -536,7 +537,6 @@ img{
   background-color: #ffffff;
   border: 1px solid #cd3a7d;
   transition: 0.4s;
-  margin-bottom: 80px;
 }
 
 .reviews__btn:hover{
@@ -544,6 +544,10 @@ img{
   background-color: #cd3a7d;
   border: 1px solid #cd3a7d;
   text-decoration: none;
+}
+
+.reviews__btn__none{
+  display: none;
 }
 /* END Reviews */
 

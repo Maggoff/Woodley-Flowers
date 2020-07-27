@@ -46,6 +46,10 @@ function myfunction(){
   console.log(elem.length);
   for(let j = 0; j<3; j++) {
     i++;
+    if(i >= elem.length){
+      document.getElementById("reviews__btn").classList.add("reviews__btn__none")
+      break;
+    }
     elem[i].classList.add("reviews__item__show");
   }
 };
