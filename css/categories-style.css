@@ -101,24 +101,19 @@ img{
   transition: 0.4s;
 }
 
-.shop__btn::after{
+.shop__btn img{
   position: absolute;
-  content: "";
+  padding: 17px 20px;
+  border-left: 1px solid #cd3a7d;
+  border-right: 1px solid #cd3a7d;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-image: url(../img/down.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 100%;
-  padding-right: 20px;
-  padding-left: 34px;
-  border-left: 1px solid #cd3a7d;
 }
 
-.show .shop__btn::after{
-  background-image: url(../img/up.svg);
+.show .shop__btn img{
+  transform: rotate(180deg);
+  top: 0;
 }
 
 .shop__btn:hover{
@@ -668,9 +663,8 @@ input[type="number"]::-webkit-inner-spin-button{
     padding: 4px 8px;
   }
 
-  .shop__btn::after{
-    padding-left: 15px;
-    padding-right: 10px;
+  .shop__btn img{
+    padding: 9px 5px;
   }
 
   .promo{
