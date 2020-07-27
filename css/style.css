@@ -576,6 +576,7 @@ img{
   line-height: 19px;
   text-transform: uppercase;
   color: #595959;
+  transition: 0.4s;
 }
 
 .footer__menu__item:hover{
