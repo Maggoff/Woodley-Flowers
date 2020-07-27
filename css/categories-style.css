@@ -459,8 +459,14 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .footer__phone{
+  color: #595959;
   margin-top: 40px;
   text-align: center;
+}
+
+.footer__phone:hover{
+  color: #cd3a7d;
+  text-decoration: none;
 }
 
 .footer__schedule{

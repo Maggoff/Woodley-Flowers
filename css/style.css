@@ -427,8 +427,12 @@ img{
   background-color: #ffffff;
   border: 1px solid #cd3a7d;
   padding: 20px 40px;
-  display: flex;
   margin-bottom: 20px;
+  display: none;
+}
+
+.reviews__item__show{
+  display: flex;
 }
 
 .reviews__item__left{
@@ -595,8 +599,14 @@ img{
 }
 
 .footer__phone{
+  color: #595959;
   margin-top: 40px;
   text-align: center;
+}
+
+.footer__phone:hover{
+  color: #cd3a7d;
+  text-decoration: none;
 }
 
 .footer__schedule{
