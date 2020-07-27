@@ -39,6 +39,11 @@ img{
   height: 42px;
 }
 
+#menu{
+  display: inline-block;
+  margin-left: 40px;
+}
+
 .header__menu{
   text-align: right;
   margin: 20px 0;
@@ -313,7 +318,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .shop__item__title{
-  font-family: "Alegrey Sans";
+  font-family: "Alegreya Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -324,7 +329,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .shop__item__price{
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
@@ -336,7 +341,7 @@ input[type="number"]::-webkit-inner-spin-button{
 
 .shop__item__discount{
   display: inline-block;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", sans-serif;
   font-weight: 700;
   font-size: 12px;
   line-height: 12px;
@@ -350,7 +355,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .shop__item__btn a{
-  font-family: "Alegrey Sans";
+  font-family: "Alegreya Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
