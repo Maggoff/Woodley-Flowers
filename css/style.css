@@ -203,12 +203,16 @@ img{
   text-decoration: none;
   padding: 8px 24px;
   background-color: #cd3a7d;
+  border: 1px solid #cd3a7d;
   margin-bottom: 2px;
+  transition: 0.4s;
 }
 
 .categories__btn:hover{
-  color: #ffffff;
+  color: #cd3a7d;
   text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #cd3a7d;
 }
 /* END Categories */
 
@@ -526,12 +530,16 @@ img{
   text-decoration: none;
   padding: 8px 24px;
   background-color: #cd3a7d;
+  border: 1px solid #cd3a7d;
+  transition: 0.4s;
   margin-bottom: 80px;
 }
 
 .reviews__btn:hover{
-  color: #ffffff;
+  color: #cd3a7d;
   text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #cd3a7d;
 }
 /* END Reviews */
 

@@ -77,6 +77,10 @@ img{
   margin-bottom: 30px;
 }
 
+.btn__item{
+  margin-bottom: 15px;
+}
+
 .shop__btn{
   display: block;
   padding: 8px 24px;
@@ -283,6 +287,25 @@ input[type="number"]::-webkit-inner-spin-button{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+}
+
+.shop__item__discount__lable{
+  position: absolute;
+  display: inline-block;
+  top: -15px;
+  left: 5%;
+  background-color: #ffffff;
+  color: #595959;
+  border: 1px solid #595959;
+  color: #cd3a7d;
+  text-transform: uppercase;
+  font-family: "Roboto Slab";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  padding: 8px 15px;
 }
 
 .shop__item__img{
@@ -335,11 +358,15 @@ input[type="number"]::-webkit-inner-spin-button{
   padding: 5px 35px;
   color: #ffffff;
   background-color: #cd3a7d;
+  border: 1px solid #cd3a7d;
+  transition: 0.4s;
 }
 
 .shop__item__btn a:hover{
-  color: #ffffff;
+  color: #cd3a7d;
   text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #cd3a7d;
 }
 
 .select__page{
@@ -577,6 +604,78 @@ input[type="number"]::-webkit-inner-spin-button{
   .header__menu__item{
     font-size: 10px;
     line-height: 13px;
+  }
+
+  .shop{
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .shop__item{
+    margin-bottom: 30px;
+  }
+
+  .shop__btn{
+    font-size: 12px;
+    line-height: 14px;
+    padding: 4px 8px;
+  }
+
+  .shop__btn::after{
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  .promo{
+    padding: 4px 8px;
+  }
+
+  .checkbox__item__label.promo::after{
+    width: 10px;
+    height: 10px;
+    right: 8px;
+  }
+
+  .checkbox__item__label{
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .checkbox__item__btn+.checkbox__item__label::after{
+    width: 10px;
+    height: 10px;
+  }
+
+  .shop__item__title{
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .shop__item__price{
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .shop__item__btn a{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .shop__item__discount__lable{
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .shop__item__discount{
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .page,
+  .prev__page,
+  .next__page{
+    font-size: 12px;
+    line-height: 16px;
   }
 
   .footer__menu__item{
