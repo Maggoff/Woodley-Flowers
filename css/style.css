@@ -1,5 +1,8 @@
 body{
   background-color: #fffafc;
+  background-image: url(../img/background.svg);
+  background-repeat: repeat;
+  background-position: center;
 }
 
 img{

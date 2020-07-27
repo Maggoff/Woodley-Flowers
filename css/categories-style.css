@@ -1,5 +1,8 @@
 body{
   background-color: #fffafc;
+  background-image: url(../img/background.svg);
+  background-repeat: repeat;
+  background-position: center;
 }
 
 img{
@@ -65,7 +68,7 @@ img{
 
 /* Shop */
 .shop{
-  background-color: #fffafc;
+  background-color: transparent;
   margin-top: 40px;
   margin-bottom: 80px;
 }
@@ -351,6 +354,7 @@ input[type="number"]::-webkit-inner-spin-button{
   line-height: 21px;
   letter-spacing: 0.1em;
   color: #595959;
+  transition: 0.4s;
 }
 
 .page:hover{
