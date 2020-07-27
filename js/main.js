@@ -35,10 +35,6 @@ $(document).ready(function(){
   });
 });
 
-$(document).on('click', '.checkbox__item .checkbox__item__label', function (e) {
-  e.stopPropagation();
-});
-
 let i = 2;
 
 function myfunction(){

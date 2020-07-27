@@ -485,6 +485,13 @@ input[type="number"]::-webkit-inner-spin-button{
   margin-left: 15px;
 }
 
+.footer__studio__inner{
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .footer__studio{
   margin: 12px 0;
   font-family: "Alegreya Sans", sans-serif;
@@ -495,9 +502,16 @@ input[type="number"]::-webkit-inner-spin-button{
   color: #595959;
 }
 
+.footer__studio:hover{
+  color: #cd3a7d;
+  text-decoration: none;
+}
+
 .footer__autor__inner{
-  display: block;
-  text-align: right;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .footer__autor{
@@ -512,7 +526,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .footer__autor:hover{
-  color: #595959;
+  color: #cd3a7d;
   text-decoration: none;
 }
 /* END Footer */
@@ -528,6 +542,11 @@ input[type="number"]::-webkit-inner-spin-button{
 
   .header__menu__item{
     margin: 0;
+  }
+
+  #menu{
+    margin: 0;
+    display: flex;
   }
 
   .footer__menu{
@@ -707,13 +726,6 @@ input[type="number"]::-webkit-inner-spin-button{
   .footer__studio{
     font-size: 10px;
     line-height: 12px;
-  }
-
-  .footer__autor__inner{
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
   }
 
   .footer__autor{

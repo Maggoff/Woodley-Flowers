@@ -7,6 +7,10 @@ $(document).ready(function(){
   });
 });
 
+$(document).on('click', '.checkbox__item .checkbox__item__label', function (e) {
+  e.stopPropagation();
+});
+
 let slider = document.getElementById('range');
 
 noUiSlider.create(slider, {
