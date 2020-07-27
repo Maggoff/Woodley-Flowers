@@ -645,9 +645,17 @@ img{
   line-height: 16px;
   text-align: left;
   color: #595959;
+  cursor: default;
 }
 
 .footer__studio:hover{
+  cursor: default;
+  color: #595959;
+  text-decoration: none;
+}
+
+.footer__studio b:hover{
+  cursor: pointer;
   color: #cd3a7d;
   text-decoration: none;
 }
@@ -668,9 +676,17 @@ img{
   line-height: 16px;
   text-align: right;
   color: #595959;
+  cursor: default;
 }
 
 .footer__autor:hover{
+  cursor: default;
+  color: #595959;
+  text-decoration: none;
+}
+
+.footer__autor b:hover{
+  cursor: pointer;
   color: #cd3a7d;
   text-decoration: none;
 }
