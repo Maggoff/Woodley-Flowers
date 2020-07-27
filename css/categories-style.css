@@ -67,7 +67,7 @@ img{
 .shop{
   background-color: #fffafc;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .filter{
@@ -219,6 +219,17 @@ img{
   margin-bottom: 8px;
 }
 
+.shop__item__discount{
+  display: inline-block;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-decoration: line-through;
+  color: rgba(89, 89, 89, 0.46);
+}
+
 .shop__item__btn{
   text-align: center;
 }
@@ -236,6 +247,36 @@ img{
 
 .shop__item__btn a:hover{
   color: #ffffff;
+  text-decoration: none;
+}
+
+.select__page{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page{
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.1em;
+  color: #595959;
+}
+
+.page:hover{
+  color: #cd3a7d;
+}
+
+.prev__page,
+.next__page{
+  color: #cd3a7d;
+  text-decoration: none;
+}
+
+.prev__page:hover,
+.next__page:hover{
+  color: #cd3a7d;
   text-decoration: none;
 }
 
