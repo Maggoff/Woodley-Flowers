@@ -101,19 +101,23 @@ img{
   transition: 0.4s;
 }
 
-.shop__btn img{
+.shop__btn div{
+  display: inline-flex;
   position: absolute;
-  padding: 17px 20px;
-  border-left: 1px solid #cd3a7d;
-  border-right: 1px solid #cd3a7d;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  padding: 17px 20px;
+  border-left: 1px solid #cd3a7d;
+  border-right: 1px solid #cd3a7d;
+}
+
+.shop__btn img{
+  transition: 0.3s;
 }
 
 .show .shop__btn img{
   transform: rotate(180deg);
-  top: 0;
 }
 
 .shop__btn:hover{
@@ -800,9 +804,9 @@ input[type="number"]::-webkit-inner-spin-button{
     line-height: 14px;
     padding: 4px 8px;
   }
-
-  .shop__btn img{
-    padding: 9px 5px;
+  
+  .shop__btn div{
+    padding: 8px 5px;
   }
 
   .promo{
