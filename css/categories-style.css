@@ -103,6 +103,7 @@ img{
 
 .shop__btn div{
   display: inline-flex;
+  align-items: center;
   position: absolute;
   right: 0;
   top: 50%;
