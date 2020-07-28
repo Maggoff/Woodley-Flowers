@@ -25,6 +25,13 @@ $(document).on('click', '.checkbox__item .checkbox__item__label', function (e) {
   e.stopPropagation();
 });
 
+$('#orderModal').on('show.bs.modal', function (event) {
+  let button = $(event.relatedTarget);
+  let recipient = button.data('whatever');
+  let modal = $(this);
+  modal.find('.modal-title').text(`Хочеш замовити букет ${recipient}?`);
+});
+
 let slider = document.getElementById('range');
 
 noUiSlider.create(slider, {

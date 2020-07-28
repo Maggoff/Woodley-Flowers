@@ -136,7 +136,7 @@
               780 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Весняний вальс»">
                 Замовити
               </a>
             </div>
@@ -152,7 +152,7 @@
               1290 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Яскрава емоція»">
                 Замовити
               </a>
             </div>
@@ -168,7 +168,7 @@
               820 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Полуничний рай»">
                 Замовити
               </a>
             </div>
@@ -190,7 +190,7 @@
               550 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Свіжість»">
                 Замовити
               </a>
             </div>
@@ -212,7 +212,7 @@
               550 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Свіжість»">
                 Замовити
               </a>
             </div>
@@ -228,7 +228,7 @@
               820 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Полуничний рай»">
                 Замовити
               </a>
             </div>
@@ -244,7 +244,7 @@
               1290 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Яскрава емоція»">
                 Замовити
               </a>
             </div>
@@ -260,7 +260,7 @@
               780 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Весняний вальс»">
                 Замовити
               </a>
             </div>
@@ -276,7 +276,7 @@
               1290 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Яскрава емоція»">
                 Замовити
               </a>
             </div>
@@ -292,7 +292,7 @@
               780 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Весняний вальс»">
                 Замовити
               </a>
             </div>
@@ -314,7 +314,7 @@
               550 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Свіжість»">
                 Замовити
               </a>
             </div>
@@ -330,7 +330,7 @@
               820 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Полуничний рай»">
                 Замовити
               </a>
             </div>
@@ -346,7 +346,7 @@
               820 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Полуничний рай»">
                 Замовити
               </a>
             </div>
@@ -368,7 +368,7 @@
               550 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Свіжість»">
                 Замовити
               </a>
             </div>
@@ -384,7 +384,7 @@
               780 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Весняний вальс»">
                 Замовити
               </a>
             </div>
@@ -400,7 +400,7 @@
               1290 грн
             </div>
             <div class="shop__item__btn">
-              <a href="#">
+              <a href="#" data-toggle="modal" data-target="#orderModal" data-whatever="«Яскрава емоція»">
                 Замовити
               </a>
             </div>
@@ -428,6 +428,48 @@
     </div>
   </section>
   <!-- END Shop -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content order__modal">
+        <div class="order__contacts">
+          <div class="order__text">
+            Або ж...
+            <br>
+            пиши нам!
+          </div>
+          <div class="order__icons">
+            <a href="#">
+              <img class="order__icon" src="img/tlg.svg" alt="Telegram">
+            </a>
+            <a href="#">
+              <img class="order__icon" src="img/vbr.svg" alt="Viber">
+            </a>
+          </div>
+        </div>
+        <div class="modal-header">
+          <h5 class="modal-title order__title" id="orderModalLabel">Замовити</h5>
+        </div>
+        <div class="modal-body">
+          <div class="order__desc">
+            Вкажи дані і ми зателефонуємо тобі!
+          </div>
+          <form class="order__form">
+            <input class="order__input" type="text" placeholder="Введіть ім'я">
+            <input class="order__input" type="tel" placeholder="+38 (0__) ___ __ __">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="javascript:void(0);" type="" class="order__btn">
+            Замовити
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END Modal -->
 
   <!-- Footer -->
   <footer class="footer" id="footer">

@@ -360,6 +360,7 @@ input[type="number"]::-webkit-inner-spin-button{
   color: #cd3a7d;
   background-color: #ffffff;
   border: 1px solid #cd3a7d;
+  text-transform: uppercase;
   transition: 0.4s;
 }
 
@@ -400,8 +401,144 @@ input[type="number"]::-webkit-inner-spin-button{
   color: #cd3a7d;
   text-decoration: none;
 }
-
 /* END Shop */
+
+/* Modal */
+.order__modal{
+  background-color: #cd3a7d;
+  border-radius: 0;
+  border: none;
+}
+
+.order__contacts{
+  position: absolute;
+  right: -85px;
+  bottom: -60px;
+  z-index: 2;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border: 7px solid #cd3a7d;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order__text{
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #595959;
+  margin-bottom: 10px;
+}
+
+.order__icons a{
+  margin-right: 15px;
+}
+
+.order__icons a:last-child{
+  margin-right: 0;
+}
+
+.order__icons a:hover{
+  text-decoration: none;
+}
+
+.order__icon{
+  width: 35px;
+  height: 35px;
+}
+
+.modal-header{
+  padding-top: 35px;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.order__title{
+  width: 100%;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #fffafc;
+}
+
+.modal-body{
+  padding-top: 0;
+  border: none;
+  padding-bottom: 0;
+}
+
+.order__desc{
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #fffafc;
+  margin-bottom: 10px;
+}
+
+.order__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order__input{
+  width: 30%;
+  margin-bottom: 12px;
+  border: 1px solid #fffafc;
+  outline: none;
+  padding: 10px 8px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  color: #595959;
+}
+
+.modal-footer{
+  padding: 1em;
+  padding-top: 0;
+  padding-bottom: 50px;
+  border: none;
+  justify-content: center;
+}
+
+.order__btn{
+  margin: 0;
+  padding: 8px 0;
+  width: 30%;
+  border: 1px solid #fffafc;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.order__btn:hover{
+  background-color: #ffffff;
+  color: #cd3a7d;
+  text-decoration: none;
+}
+/* END modal */
 
 /* Footer */
 .footer{
@@ -747,4 +884,11 @@ input[type="number"]::-webkit-inner-spin-button{
 
 }
 
+@media (min-width: 576px){
+
+  .modal-dialog {
+    max-width: 700px;
+  }
+
+}
 /* END Adaption */
