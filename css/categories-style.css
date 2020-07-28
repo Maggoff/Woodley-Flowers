@@ -312,10 +312,37 @@ input[type="number"]::-webkit-inner-spin-button{
   line-height: 12px;
   letter-spacing: 0.15em;
   padding: 8px 15px;
+  z-index: 1;
 }
 
 .shop__item__img{
   width: 100%;
+  height: 240px;
+}
+
+.shop__item__text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 240px;
+  color: transparent;
+  background-color: transparent;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  transition: 0.4s;
+}
+
+.shop__item__text:hover{
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);;
 }
 
 .shop__item__title{
