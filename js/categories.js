@@ -32,14 +32,14 @@ $('#orderModal').on('show.bs.modal', function (event) {
   modal.find('.modal-title').text(`Хочеш замовити букет ${recipient}?`);
 });
 
-$(document).ready(function(){
-  let img = document.getElementsByClassName('shop__item__img');
-  let text = document.getElementsByClassName('shop__item__text');
-  for (let i = 0; i<img.length; i++) {
-    let imgStyle = window.getComputedStyle(img[i], null).getPropertyValue("height");
-    text[i].style.height = imgStyle;
-  }
-})
+// $(document).ready(function(){
+//   let img = document.getElementsByClassName('shop__item__img');
+//   let text = document.getElementsByClassName('shop__item__text');
+//   for (let i = 0; i<img.length; i++) {
+//     let imgStyle = window.getComputedStyle(img[i], null).getPropertyValue("height");
+//     text[i].style.height = imgStyle;
+//   }
+// });
 
 let slider = document.getElementById('range');
 

@@ -320,8 +320,16 @@ input[type="number"]::-webkit-inner-spin-button{
   z-index: 1;
 }
 
+.shop__item__img__inner{
+  position: relative;
+}
+
 .shop__item__img{
   width: 100%;
+}
+
+.shop__item__info{
+  display: none;
 }
 
 .shop__item__text{
@@ -333,7 +341,7 @@ input[type="number"]::-webkit-inner-spin-button{
   justify-content: center;
   align-items: center;
   width: 100%;
-  
+  height: 100%;
   color: transparent;
   background-color: transparent;
   font-family: "Alegreya Sans", sans-serif;
@@ -864,6 +872,15 @@ input[type="number"]::-webkit-inner-spin-button{
   .checkbox__item__btn+.checkbox__item__label::after{
     width: 10px;
     height: 10px;
+  }
+
+  .shop__item__info{
+    display: block;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    height: 7vw;
+    width: 7vw;
   }
 
   .shop__item__title{
