@@ -350,11 +350,13 @@ input[type="number"]::-webkit-inner-spin-button{
   line-height: 28px;
   letter-spacing: 0.1em;
   transition: 0.4s;
+  user-select: none;
 }
 
 .shop__item:hover .shop__item__text{
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.6);;
+  background-color: rgba(0, 0, 0, 0.6);
+  user-select: auto;
 }
 
 .shop__item__title{
