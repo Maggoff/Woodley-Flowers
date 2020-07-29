@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 body{
   background-color: #fffafc;
   background-image: url(../img/background.svg);
@@ -99,6 +103,7 @@ img{
   letter-spacing: 0.05em;
   color: #595959;
   transition: 0.4s;
+  cursor: pointer;
 }
 
 .shop__btn div{

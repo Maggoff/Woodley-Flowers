@@ -1,3 +1,7 @@
+* {
+  outline: none;
+}
+
 body{
   background-color: #fffafc;
   background-image: url(../img/background.svg);
